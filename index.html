@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pretty cool website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-image-behind"></div>
+
+    <div class="container">
+        <!-- sectiono uno: funny fact of the j -->
+        <header class="profile-header">
+            <h1>Aurea Caelumn (Golden Sky)</h1>
+            <p class="tagline">Me :3</p>
+
+            <div class="main-facts">
+                <h2>Core Facts</h2>
+                <dl>
+                    <dt>Primary Alias:</dt>
+                    <dd>Aurea (Caelumn)</dd>
+
+                    <dt>Other Names:</dt>
+                    <dd>Pichu, Night</dd>
+
+                    <dt>Birthday</dt>
+                    <dd>6th September</dd>
+
+                    <dt>Current status:</dt>
+                    <dd>pichu q :3</dd>
+                </dl>
+
+                <div class="social-links">
+                    <h3>Find Me Online:</h3>
+                    <ul>
+                        <li><a href="https://discord.gg/Cn8cSfSV3N" target="_blank" rel="noopener noreferrer">Discord Server</a></li>
+                        <li><a href="https://www.youtube.com/@pichucool" target="_blank" rel="noopener noreferrer">YouTube Channel</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <!-- Section: PichuJ likes tabs :3 -->
+        <main class="profile-content">
+            <div class="tabs">
+                <button class="tab-button active" onclick="openTab(event, 'aboutMe')">About Me</button>
+                <button class="tab-button" onclick="openTab(event, 'myInterests')">My Interests</button>
+                <button class="tab-button" onclick="openTab(event, 'myOC')">My OC</button>
+                <button class="tab-button" onclick="openTab(event, 'myGames')">My Games</button> 
+                <button class="tab-button" onclick="openTab(event, 'Facts')">More Facts</button>
+            </div>
+
+            <!-- MEEEEEE!! yay ego!! -->
+            <div id="aboutMe" class="tab-content active">
+                <h2>About Me</h2>
+                <p>Hello, I'm Aurea! This is a cool website I made to help people understand some of my hobbies and such without having to go through the whole fiasco of asking loads of questions. </p>
+                <p> <span class="animated-text-reveal">I AM A MINOR!! (please do not send me any weird stuff)</p>
+                <p>This is pretty cool stuff I made. It's planned to be updated in the future. <span class="animated-text-reveal">oooo updates...</span> Okay, I should really shut up with that. :P </p>
+            </div>
+
+            <!-- Tab Content: My Interests. Pretty intresting, huh? -->
+            <div id="myInterests" class="tab-content">
+                <h2>My Interests</h2>
+                <p>Here's some funny stuff I like:</p>
+                <ul>
+                    <li><strong>Programming:</strong> I find immense joy in causing mental and physical trauma via the most awful code on planet earth.</li>
+                    <li><strong>Gaming:</strong> I love gaming. I also hate gaming. IMR, GCI, SCI everything out there- I hate you sometimes.</li>
+                    <li><strong>Lore and worldbuilding:</strong> My OC is really cool, but the world around them is nearly as much. You can't have an OC without the lore around them, and this is really good at that.</li>
+                </ul>
+                <p>Want to complain about how my interests suck? Skill issue.</p>
+            </div>
+
+            <!-- Tab Content: My OC -->
+            <div id="myOC" class="tab-content">
+                <h2>My Original Character</h2>
+                <div class="oc-section">
+                    <div class="oc-image">
+                        <!-- OC!! i love ocs!! if you see this, pretty cool, huh? -->
+                        <img src="images/oc-picture.jpg" alt="[Your OC's Name] - My Furry Original Character">
+                        <figcaption>Aurea Caelumn</figcaption>
+                    </div>
+                    <div class="oc-lore">
+                        <h3>Lore & Background</h3>
+                        <p>Aurea Caelumn is a pretty cool snow dragon.  Aurea has a brother, of whom is generally referred to as Day, who is the complete opposite, and has 2 "loving" parents.</p>
+                        <p><strong>Species:</strong> Snow dragon</p>
+                        <p><strong>Personality:</strong> Playful, perspective, machiavellianistic (big word!! we like!!)</p>
+                        <p><strong>Key Traits:</strong></p>
+                        <ul>
+                            <li>Very quiet, almost never speaking, prefers to "watch".</li>
+                            <li>Is technically only half a person because of [REDACTED].</li>
+                    <!--spooky scary skeletons!-->
+                            <li>Able to control snow, water, ice and steam at will. Allows for some fun snow sculptures or ice sculptures, or basically making a free pure drink anywhere.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- gaming !-->
+            <div id="myGames" class="tab-content">
+                <h2>My Gaming Journey</h2>
+                <p>Here's like my 2 main games at any time here, and some information. Nothing important but might be useful.</p>
+
+                <div class="game-entry">
+                    <h3>Celeste</h3>
+                    <div class="game-details">
+                        <div class="game-image">
+                            <img src="images/celeste-game.jpg" alt="Celeste Gameplay">
+                        </div>
+                        <div class="game-text">
+                            <p><strong>Status:</strong> silly</p>
+                            <p><strong>Progression:</strong> <span class="animated-text-reveal">188/202 Strawberries (i hate goldens)</span> I hate all the golden strawberries, I love suffering, fun.</p>
+                            <p><strong>Notes:</strong> Celeste is a great game. Apart from Oshiro. I never want to see Oshiro, and I'm pretty sure he appears in my nightmares.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="game-entry">
+                    <h3>Roblox</h3>
+                    <div class="game-details">
+                        <div class="game-image">
+                            <img src="images/roblox-game.jpg" alt="Roblox Game">
+                        </div>
+                        <div class="game-text">
+                            <p><strong>Status:</strong> not active because holiday</p>
+                            <p><strong>Progression:</strong> Primarily an <span class="animated-text-reveal">incremental game player</span>. we love GCI!!!</p>
+                            <p><strong>Notes:</strong> Roblox is a great game. The people who inhabit it are the worst part. Incremental games are pretty cool.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>>
+
+            <!-- Tab Content: facts!! -->
+            <div id="Facts" class="tab-content">
+                <h2>More Facts</h2>
+                <p>Pichu E asked me to add facts here. Pichu E is pretty cool.</p>
+                <dl class="facts-list">
+                    <dt>Gender:</dt>
+                    <dd>Male</dd>
+
+                    <dt>Pronouns:</dt>
+                    <dd>He/Him/They/Them</dd>
+
+                    <dt>Zodiac Sign:</dt>
+                    <dd>Virgo</dd>
+
+                    <dt>Favorite Color:</dt>
+                    <dd>Chrome Green Oxide Fiery</dd>
+
+                    <dt>Dream Job:</dt>
+                    <dd>Coder at own tech company.</dd>
+
+                    <dt>Myers-Briggs Type:</dt>
+                    <dd>INFJ-T</dd>
+                    
+                </dl>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tabbuttons;
+
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            
+            tabbuttons = document.getElementsByClassName("tab-button");
+            for (i = 0; i < tabbuttons.length; i++) {
+                tabbuttons[i].className = tabbuttons[i].className.replace(" active", "");
+            }
+            
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.querySelector('.tab-button.active').click();
+        });
+    </script>
+</body>
+</html>
